@@ -16,12 +16,8 @@ namespace OracleLibrary.TestApp
             var partsByPage = businessLayerObj.GetPartsByPage("partnumber", true, 2, 2);
             var partsByNumber = businessLayerObj.GetPartsByNumber("1", 2);
             var partsByName = businessLayerObj.GetPartsByName("a", 1);
-            var partsByDesc1 = businessLayerObj.GetPartsByDescription("b", 0);
+            var partsByDesc = businessLayerObj.GetPartsByDescription("b", 0);
 
-
-            // Comment 1
-
-            // Comments for someTesting
         }
     }
 }
